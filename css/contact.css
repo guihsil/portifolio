@@ -1,0 +1,32 @@
+#contact {
+    width: 100%;
+    height: 20vh;
+    background-color: #f0f0f0;
+    padding-top: 20px;
+}
+
+.cont-tlt {
+    text-align: center;
+    color: #330033;
+}
+
+.contacts {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.contact-link h2 a{
+    text-decoration: none;
+    color: #330033;
+    text-align: center;
+}
+
+.contact-link h2 a:hover {
+    border-bottom: 2px solid #330033;
+    border-top: 2px solid #330033;
+}

@@ -1,0 +1,55 @@
+#myprojects {
+    width: 100%;
+    height: 80vh;
+    background-image: url("../img/mainbg.svg");
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+}
+
+.proj-sep {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+}
+
+.myprojects {
+    font-size: 2rem;
+}
+
+.projects {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 20px 0 20px;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+}
+
+.project img {
+    width: 100%;
+    border: 5px solid #fff;
+    border-radius: 5px;
+}
+
+.project p a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.project p a:hover {
+    border-bottom: 2px solid #330033;
+}

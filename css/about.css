@@ -1,0 +1,49 @@
+#about {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/mainbg.svg");
+    color: #fff;
+}
+
+.abt-sep {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+}
+
+.borda {
+    width: 30%;
+    border: 1px solid #fff;
+}
+
+.abt-title {
+
+    font-size: 2rem;
+}
+
+.about-content {
+    width: 100%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abt-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.abt-img img {
+    width: 40%;
+    border: 10px solid #fff;
+    border-radius: 5px;
+    margin-left: 200px;
+}
+
+.abt-txt {
+    padding: 10% 10% 10% 0;
+    width: 50%;
+}
